@@ -132,17 +132,19 @@
                         <h5 class="item-subtitle mbr-fonts-style pb-3 display-4">exploring tensorflow object detection</h5>
                         <p class="item-text display-7"><strong>(work-in-progress)</strong>
                           <br>Plant Disease Detection of 'PlantDoc' Dataset, using Tensorflow Object Detection API, SSD MobileNetV2 FPNLite 320x320, Resnet101 FPN
-<br>
-<br>Attempted a saved pb model deployed using Docker/TF Serving, but I haven't built a REST client yet.
-<br>
-<br>    mAP scores as follows after 12000 steps (no tuning/model selection done yet):<br>DetBoxes_Precision/mAP: 0.2569
-<br>DetBoxes_Precision/mAP@.50IOU: 0.3536
-<br>DetBoxes_Precision/mAP@.75IOU: 0.3081
-<br>DetBoxes_Precision/mAP (small): 0.0000
-<br>DetBoxes_Precision/mAP (medium): 0.0655
-<br>DetBoxes_Precision/mAP (large): 0.2603
-<br><br><br><strong>Techniques used:<br></strong>tf Object Detection, CNN Image Classification, Transfer Learning
-                          <br> <br>To-do: look into TFOD API param tuning for individual models, how to include image augmentation in pipeline
+                          <br>
+                      <ul>
+                        <li>dataset from https://github.com/pratikkayal/PlantDoc-Object-Detection-Dataset</li>
+                          <ul>
+                            <li>original Pascal VOC annotations cleaned up using ./utils/clean-pascalvoc-annotations.ipynb</li>
+                          </ul>
+                        <li>notebook referenced from https://github.com/nicknochnack/TFODCourse Nick's tutorial on webcam hand gestures detection</li>
+                        <li>started with SSD MobileNet FPNLite 320x320 but results weren't good. Attempted ResNet101 based on performance/speed chart here: https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/tf2_detection_zoo.md</li>  
+                        <li>added image augmentation preprocessing steps to train pipeline</li>
+                        <li>work-in-progress. exported protobuf and test deployed on Docker successfully, but I haven't built a REST & front-end client yet.</li>
+                      </ul>
+                      <br><br><strong>Techniques used:<br></strong>tf Object Detection, CNN Image Classification, Transfer Learning, Image Augmentation
+                          <br> <br>To-do: TFOD API param tuning for individual models
                       </p>
                     </div>
                     
