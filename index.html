@@ -132,18 +132,17 @@
                         <h5 class="item-subtitle mbr-fonts-style pb-3 display-4">exploring tensorflow object detection</h5>
                         <p class="item-text display-7"><strong>(work-in-progress)</strong>
                           <br>Plant Disease Detection of 'PlantDoc' Dataset, using Tensorflow Object Detection API, SSD MobileNetV2 FPNLite 320x320, Resnet101 FPN
-                        </p>
-                        <ul>
-                          <li class="item-text display-7">dataset from <a href="https://github.com/pratikkayal/PlantDoc-Object-Detection-Dataset" target='new'>here</a></li>
-                            <ul>
-                              <li class="item-text display-7">original Pascal VOC annotations cleaned up using ./utils/clean-pascalvoc-annotations.ipynb</li>
-                            </ul>
-                          <li class="item-text display-7">notebook referenced from <a href="https://github.com/nicknochnack/TFODCourse" target='new'>Nick's tutorial on webcam hand gestures detection</a></li>
-                          <li class="item-text display-7">started with SSD MobileNet FPNLite 320x320 but results weren't good. Attempted ResNet101 based on performance/speed <a href="https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/tf2_detection_zoo.md" target='new'>chart here</a>.</li>  
-                          <li class="item-text display-7">added image augmentation preprocessing steps to train pipeline</li>
-                          <li class="item-text display-7">exported protobuf and test deployed on Docker(TF Serving) successfully, but I have not built a REST and front-end client yet.</li>
-                        </ul>
-                        <p class="item-text display-7"><strong>Techniques used:<br></strong>tf Object Detection, CNN Image Classification, Transfer Learning, Image Augmentation
+                          <br>
+                          <br>Dataset from <a href="https://github.com/pratikkayal/PlantDoc-Object-Detection-Dataset" target='new'>here</a>
+                          <br>Original Pascal VOC annotations cleaned up using ./utils/clean-pascalvoc-annotations.ipynb
+                          <br>Notebook referenced from <a href="https://github.com/nicknochnack/TFODCourse" target='new'>Nick's tutorial on webcam hand gestures detection</a>
+                          <br>Started with SSD MobileNet FPNLite 320x320 but results weren't good. 
+                          <br>Attempted ResNet101 based on performance/speed <a href="https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/tf2_detection_zoo.md" target='new'>chart here</a>.
+                          <br>Added image augmentation preprocessing steps to train pipeline
+                          <br>Exported protobuf and test deployed on Docker(TF Serving) successfully, but have not built a REST and front-end client yet.
+                          <br>
+                          <br>
+                          <br><strong>Techniques used:<br></strong>tf Object Detection, CNN Image Classification, Transfer Learning, Image Augmentation
                           <br> <br>To-do: TFOD API param tuning for individual models
                         </p>
                     </div>
