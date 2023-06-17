@@ -14,7 +14,7 @@
     <link rel="shortcut icon" href="assets/images/fnc-124x128-50-124x128.png" type="image/x-icon">
     <meta name="description" content="Hanafi Haffidz - ML portfolio">
 
-    <title>Hanafi Haffidz - Data Science - Portfolio</title>
+    <title>Hanafi Haffidz - Machine Learning - Portfolio</title>
     <link rel="stylesheet" href="assets/web/assets/mobirise-icons/mobirise-icons.css">
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-grid.min.css">
@@ -130,16 +130,13 @@ Based on actual data and passenger manifests, we are able to detect patterns tha
                                 This task focuses on analyzing manufacturing control data to uncover patterns and clusters that can be used for further downstream tasks.
                             </p>
                             <p class="item-text display-7">
-                                The initial exploration involved the application of unsupervised methods to evaluate the suitability of different algorithms for the dataset. It was found that k-Means produced spherical clusters that did not align well with the data, while density-based methods were ineffective due to the rather uniform dataset density. Gaussian Mixture Models emerged as the most accurate method in this context. Additionally, a semi-supervised approach was employed, using confident predictions from the Gaussian Mixture Models to train a HistGBM classifier, resulting in improved performance.
-
+                                Initial exploration included evaluating different algorithms for the dataset. k-Means produced spherical clusters that didn't align well with the data, while density-based methods were ineffective due to uniform dataset density. Gaussian Mixture Models emerged as the most accurate method. A semi-supervised approach used confident predictions from GMM to train a HistGBM classifier, resulting in improved performance.
                             </p>
                             <p class="item-text display-7">
-                                Dimensionality reduction techniques, such as PCA, proved to be less beneficial in this context and were primarily utilized for visualization purposes alongside t-SNE.
-
+                                Dimensionality reduction techniques like PCA were less beneficial but used for visualization alongside t-SNE. 
                             </p>
                             <p class="item-text display-7">
-                                Incorporated various techniques and methodologies, including statistical tests like the Shapiro-Wilks Test and Chi-squared Test, PowerTransformer for data normalization, outlier clipping, PCA for dimensionality reduction, k-Means, Gaussian Mixture Models (GMM), Bayesian Gaussian Mixture Models (BGMM), semi-supervised learning using HistGBM, and t-SNE for data visualization.
-
+                                Techniques utilized include statistical tests (Shapiro-Wilks, Chi-squared), PowerTransformer for data normalization, outlier clipping, PCA, k-Means, GMM, BGMM, semi-supervised learning (HistGBM), and t-SNE for data visualization.
                             </p>
 
                                 <!-- Given manufacturing control data for which each sample belongs to a cluster, the task is to predict cluster labels. <br><br>First attempt with unsupervised methods, and&nbsp;observing how different algorithms work/don't work for this dataset.Here, k-Means is too simplistic (creates spherical clusters), dataset density was too uniform and thus density based methods didn't seem to work well either. Gaussian Mixture Models seemed the most accurate thus far. Also attempted a semi-supervised approach, using 'confident' predictions out of the GMM as labels to train a HistGBM classifier. Doing so managed to eke out a little bit more score-wise.&nbsp;<br><br>PCA reduction wasn't useful either, so only utilised it and t-SNE for visualisation.<br><br><strong>Techniques used:<br></strong>Shapiro-Wilks Test, Chi-squared Test, PowerTransformer, clip outliers, PCA, k-Means, GMM, BGMM, Semi-supervised using HistGBM, t-SNE (visualisation)</p> -->
