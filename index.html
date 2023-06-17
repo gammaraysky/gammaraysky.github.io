@@ -49,22 +49,14 @@
                 <div class="mbr-white col-md-10">
                     <h1 class="mbr-section-title align-center mbr-bold pb-3 mbr-fonts-style display-1">
                         Hanafi Haffidz</h1>
-                    <h3 class="mbr-section-subtitle align-center mbr-light pb-3 mbr-fonts-style display-2">Hi, I'm a machine learning engineer apprentice.</h3>
-                    <p class="mbr-text align-center pb-3 mbr-fonts-style display-5">I was a freelance filmmaker and company owner for over ten years, where I managed creative projects from start to end, often requiring me to wear many different hats:</p>
-
-                    <div class="mbr-section-btn align-center">
-                        <a class="btn btn-sm btn-secondary display-8">project management</a>
-                        <a class="btn btn-sm btn-secondary display-8">sales / budgeting / accounting</a>
-                        <a class="btn btn-sm btn-secondary display-8">equipment procurement / maintenance</a>
-                        <a class="btn btn-sm btn-secondary display-8">hiring</a>
-                        <a class="btn btn-sm btn-secondary display-8">content development</a>
-                        <a class="btn btn-sm btn-secondary display-8">storytelling / communication</a>
-                        <a class="btn btn-sm btn-secondary display-8">cinematography</a>
-                        <a class="btn btn-sm btn-secondary display-8">editing</a></div>
-
+                    <h4 class="mbr-section-subtitle align-center mbr-light pb-3 mbr-fonts-style display-2">Hi, I'm a certified CAIE Associate AI Engineer, currently apprenticing at AI Singapore.</h4>
                     <p class="mbr-text align-center pb-3 mbr-fonts-style display-5">
-                        <br>COVID-19 lockdowns prompted me to seek a career shift. Thus, a year ago, I started learning Python, statistics and data science. The projects below capture my current progress.<br>
-                        <br>Or scroll down further to check out my past <a href="page1.html#content5-i" class="text-primary">creative work</a>.</p>
+                        For over a decade, I thrived as a freelance filmmaker and company owner, overseeing diverse projects from inception to completion. This experience allowed me to excel in various roles, including project management, training, design thinking, content development, branding, storytelling, and communication.
+                    </p><p class="mbr-text align-center pb-3 mbr-fonts-style display-5">
+                        One unique advantage I bring to the AI landscape is my non-STEM background. This perspective offers a fresh lens to tackle AI challenges, as I possess extensive expertise in understanding the human psychology — encompassing thoughts, emotions, and decision-making processes.
+                    </p><p class="mbr-text align-center pb-3 mbr-fonts-style display-5">
+                        I invite you to explore a snapshot of my ML projects below, or continue scrolling to view my previous <a href="page1.html#content5-i" class="text-primary">creative work.</a>
+                    </p>
 
                 </div>
             </div>
@@ -77,7 +69,7 @@
         <div class="container">
             <div class="row justify-content-md-center">
                 <div class="col-md-10 align-center">
-                    <h1 class="mbr-section-title mbr-bold pb-3 mbr-fonts-style display-1">Data Science Projects</h1>
+                    <h1 class="mbr-section-title mbr-bold pb-3 mbr-fonts-style display-1">Machine Learning Projects</h1>
 
                     <p class="mbr-text pb-3 mbr-fonts-style display-5"></p>
 
@@ -99,11 +91,27 @@
                             </a>
                         </div>
                         <div class="item-content">
-                            <h4 class="item-title mbr-fonts-style pb-3 display-7"><a href="https://github.com/gammaraysky/classifier_histgbm_spaceship_titanic" class="text-primary" target="_blank">'Spaceship Titanic' Kaggle Playground Series</a></h4>
-                            <h5 class="item-subtitle mbr-fonts-style pb-3 display-4">exploring sklearn classifiers</h5>
-                            <p class="item-text display-7">A classifier model that predicts the outcome of passengers in a ship crash.
+                            <h4 class="item-title mbr-fonts-style pb-3 display-7"><a href="https://github.com/gammaraysky/classifier_histgbm_spaceship_titanic" class="text-primary" target="_blank">Predicting Passenger Survival using sklearn Classifiers</a></h4>
+                            <!--<h5 class="item-subtitle mbr-fonts-style pb-3 display-4">exploring sklearn classifiers</h5>-->
+                            <p class="item-text display-7">
+                                <!--A classifier model that predicts the outcome of passengers in a ship crash.
 Based on actual data and passenger manifests, we are able to detect patterns that the model can train on, such that it can predict survivability of the remaining missing passengers, so as to best allocate search-and-rescue resources.
 <br><br>Achieved 0.80576 accuracy score on Kaggle, leaderboard position 256/2350.<br><br><strong>Techniques used:<br></strong>conditional imputation of missing values, KNNImputer, OneHotEncoder, OrdinalEncoder, Regex, RobustScaler, PCA, GridSearchCV, GaussianNB, LogisticRegression, SVC, Adaboost, RandomForest, HistGBM, Pipelines (for final model).</p>
+                                -->
+                                This project focuses on developing a classifier model to predict the survivability of passengers in a ship crash, leveraging actual data and passenger manifests. By identifying meaningful patterns in the available data, the model aims to optimize the allocation of search-and-rescue resources for the remaining missing passengers.
+                            </p>
+                            <p class="item-text display-7">
+                                The developed classifier model achieved an accuracy score of 0.80576 on Kaggle, with a commendable leaderboard position of 256 out of 2350 participants.
+
+                            </p>
+                            <p class="item-text display-7">
+                                Utilised a range of techniques and methodologies, including conditional imputation of missing values, KNNImputer, OneHotEncoder, OrdinalEncoder, Regex, RobustScaler, PCA, GridSearchCV, GaussianNB, LogisticRegression, SVC, Adaboost, RandomForest, HistGBM, and Pipelines for the final model.
+
+                            </p>
+
+
+
+
                         </div>
 
                     </div>
@@ -116,9 +124,25 @@ Based on actual data and passenger manifests, we are able to detect patterns tha
                             </a>
                         </div>
                         <div class="item-content">
-                            <h4 class="item-title mbr-fonts-style pb-3 display-7"><a href="https://github.com/gammaraysky/clustering_manufacturingcontroldata" class="text-primary" target="_blank">'Manufacturing Control Data' Kaggle Playground Series</a></h4>
-                            <h5 class="item-subtitle mbr-fonts-style pb-3 display-4">exploring clustering algorithms</h5>
-                            <p class="item-text display-7">Given manufacturing control data for which each sample belongs to a cluster, the task is to predict cluster labels. <br><br>First attempt with unsupervised methods, and&nbsp;observing how different algorithms work/don't work for this dataset.Here, k-Means is too simplistic (creates spherical clusters), dataset density was too uniform and thus density based methods didn't seem to work well either. Gaussian Mixture Models seemed the most accurate thus far. Also attempted a semi-supervised approach, using 'confident' predictions out of the GMM as labels to train a HistGBM classifier. Doing so managed to eke out a little bit more score-wise.&nbsp;<br><br>PCA reduction wasn't useful either, so only utilised it and t-SNE for visualisation.<br><br><strong>Techniques used:<br></strong>Shapiro-Wilks Test, Chi-squared Test, PowerTransformer, clip outliers, PCA, k-Means, GMM, BGMM, Semi-supervised using HistGBM, t-SNE (visualisation)</p>
+                            <h4 class="item-title mbr-fonts-style pb-3 display-7"><a href="https://github.com/gammaraysky/clustering_manufacturingcontroldata" class="text-primary" target="_blank">Exploring Clustering Algorithms on Manufacturing Control Data</a></h4>
+                            <!-- <h5 class="item-subtitle mbr-fonts-style pb-3 display-4">exploring clustering algorithms</h5> -->
+                            <p class="item-text display-7">
+                                This task focuses on analyzing manufacturing control data to uncover patterns and clusters that can be used for further downstream tasks.
+                            </p>
+                            <p class="item-text display-7">
+                                The initial exploration involved the application of unsupervised methods to evaluate the suitability of different algorithms for the dataset. It was found that k-Means produced spherical clusters that did not align well with the data, while density-based methods were ineffective due to the rather uniform dataset density. Gaussian Mixture Models emerged as the most accurate method in this context. Additionally, a semi-supervised approach was employed, using confident predictions from the Gaussian Mixture Models to train a HistGBM classifier, resulting in improved performance.
+
+                            </p>
+                            <p class="item-text display-7">
+                                Dimensionality reduction techniques, such as PCA, proved to be less beneficial in this context and were primarily utilized for visualization purposes alongside t-SNE.
+
+                            </p>
+                            <p class="item-text display-7">
+                                Incorporated various techniques and methodologies, including statistical tests like the Shapiro-Wilks Test and Chi-squared Test, PowerTransformer for data normalization, outlier clipping, PCA for dimensionality reduction, k-Means, Gaussian Mixture Models (GMM), Bayesian Gaussian Mixture Models (BGMM), semi-supervised learning using HistGBM, and t-SNE for data visualization.
+
+                            </p>
+
+                                <!-- Given manufacturing control data for which each sample belongs to a cluster, the task is to predict cluster labels. <br><br>First attempt with unsupervised methods, and&nbsp;observing how different algorithms work/don't work for this dataset.Here, k-Means is too simplistic (creates spherical clusters), dataset density was too uniform and thus density based methods didn't seem to work well either. Gaussian Mixture Models seemed the most accurate thus far. Also attempted a semi-supervised approach, using 'confident' predictions out of the GMM as labels to train a HistGBM classifier. Doing so managed to eke out a little bit more score-wise.&nbsp;<br><br>PCA reduction wasn't useful either, so only utilised it and t-SNE for visualisation.<br><br><strong>Techniques used:<br></strong>Shapiro-Wilks Test, Chi-squared Test, PowerTransformer, clip outliers, PCA, k-Means, GMM, BGMM, Semi-supervised using HistGBM, t-SNE (visualisation)</p> -->
                         </div>
 
                     </div>
@@ -131,9 +155,18 @@ Based on actual data and passenger manifests, we are able to detect patterns tha
                             </a>
                         </div>
                         <div class="item-content">
-                            <h4 class="item-title mbr-fonts-style pb-3 display-7"><a href="https://github.com/gammaraysky/tf_objectiondetection" class="text-primary" target="_blank">Plant Disease Detection</a></h4>
-                            <h5 class="item-subtitle mbr-fonts-style pb-3 display-4">exploring tensorflow object detection, docker/tf serving deployment</h5>
-                            <p class="item-text display-7"><strong>(work-in-progress)</strong>
+                            <h4 class="item-title mbr-fonts-style pb-3 display-7"><a href="https://github.com/gammaraysky/tf_objectiondetection" class="text-primary" target="_blank">Plant Disease Detection - Exploring TensorFlow Object Detection and Docker/TF Serving Deployment</a></h4>
+                            <!-- <h5 class="item-subtitle mbr-fonts-style pb-3 display-4">exploring tensorflow object detection, docker/tf serving deployment</h5> -->
+                            <p class="item-text display-7">
+                                This project aims to develop a plant disease detection system by utilizing TensorFlow Object Detection API and deploying it through Docker and TF Serving. The project is currently in progress and aims to achieve accurate and efficient classification of plant diseases.
+                            </p>
+                            <p class="item-text display-7">
+                                The project utilizes the 'PlantDoc' dataset for training and evaluation purposes. Initially, the SSD MobileNetV2 FPNLite 320x320 model was used, but it did not yield satisfactory results. As a result, the ResNet101 FPN model was explored based on a performance/speed chart. Image augmentation techniques were implemented in the training pipeline to enhance model performance. TensorBoard was employed to monitor the training and evaluation processes.
+                            </p>
+                            <p class="item-text display-7">
+                                The model was finally deployed using Docker and TF Serving, enabling inference through a REST client. The project incorporates various techniques such as TensorFlow Object Detection, CNN Image Classification, transfer learning, and image augmentation to improve the accuracy and robustness of the plant disease detection model.
+                            </p>
+                                <!-- <strong>(work-in-progress)</strong>
                                 <br>Plant Disease Detection of 'PlantDoc' Dataset, using Tensorflow Object Detection API, SSD MobileNetV2 FPNLite 320x320, Resnet101 FPN
                                 <br>
                                 <br>- Dataset from: <a href="https://github.com/pratikkayal/PlantDoc-Object-Detection-Dataset" target='new'>PlantDoc</a>
@@ -146,7 +179,7 @@ Based on actual data and passenger manifests, we are able to detect patterns tha
                                 <br>- Test deployed on Docker(TF Serving) with REST client
                                 <br>
                                 <br><strong>Techniques used:<br></strong>tf Object Detection, CNN Image Classification, Transfer Learning, Image Augmentation
-                                <br> <br>To-do: further model selection and possible param tuning.
+                                <br> <br>To-do: further model selection and possible param tuning. -->
                             </p>
                         </div>
 
@@ -168,9 +201,38 @@ Based on actual data and passenger manifests, we are able to detect patterns tha
                             </a>
                         </div>
                         <div class="item-content">
-                            <h4 class="item-title mbr-fonts-style pb-3 display-7"><a href="https://github.com/gammaraysky/nltk_exercises" class="text-primary" target="_blank">'Text Mining/NLP' Exercises</a></h4>
-                            <h5 class="item-subtitle mbr-fonts-style pb-3 display-4">exploring NLTK, gensim, BERTopic for text classification, topic modelling</h5>
-                            <p class="item-text display-7">Several exercises on sentiment analysis (book reviews), spam classification (NUS text messages), topic modelling (BBC News articles)<br><br><strong>Techniques used:<br></strong>CountVectorizer &amp; tf-idf embeddings, PCA, t-SNE, UMAP reduction &amp; k-Means for visualisation &amp; finding n_clusters, Latent Dirichlet Allocation, BERTopic with pre-trained sentence transformer, Wordcloud topic keyword visualisation.</p>
+                            <h4 class="item-title mbr-fonts-style pb-3 display-7"><a href="https://github.com/gammaraysky/nltk_exercises" class="text-primary" target="_blank">Text Mining/Natural Language Processing (NLP) Exercises
+                                Exploring NLTK, Gensim, and BERTopic for Text Classification and Topic Modelling</a></h4>
+                            <!-- <h5 class="item-subtitle mbr-fonts-style pb-3 display-4">exploring NLTK, gensim, BERTopic for text classification, topic modelling</h5> -->
+                            <p class="item-text display-7">
+                                This portfolio showcases a series of exercises focusing on sentiment analysis of book reviews, spam classification of NUS text messages, and topic modelling of BBC News articles.
+                            </p>
+                            <p class="item-text display-7">
+                                Techniques employed include:
+                                <ul>
+                                    <li>Utilization of CountVectorizer and tf-idf embeddings for text representation
+                                    </li>
+                                    <li>
+                                        Dimensionality reduction techniques such as PCA, t-SNE, and UMAP for visualizing and determining the optimal number of clusters (n_clusters)
+                                        
+                                    </li>
+                                    <li>
+                                        Application of Latent Dirichlet Allocation for topic modelling
+                                        
+                                    </li>
+                                    <li>
+                                        Leveraging BERTopic with pre-trained sentence transformer models for advanced topic extraction
+                                        
+                                    </li>
+                                    <li>
+                                        Visualizing topic keywords using Wordcloud visualizations.
+                                    </li>
+
+                                </ul>
+
+                            </p>
+                            
+                                <!-- Several exercises on sentiment analysis (book reviews), spam classification (NUS text messages), topic modelling (BBC News articles)<br><br><strong>Techniques used:<br></strong>CountVectorizer &amp; tf-idf embeddings, PCA, t-SNE, UMAP reduction &amp; k-Means for visualisation &amp; finding n_clusters, Latent Dirichlet Allocation, BERTopic with pre-trained sentence transformer, Wordcloud topic keyword visualisation.</p> -->
                         </div>
 
                     </div>
@@ -183,10 +245,20 @@ Based on actual data and passenger manifests, we are able to detect patterns tha
                             </a>
                         </div>
                         <div class="item-content">
-                            <h4 class="item-title mbr-fonts-style pb-3 display-7"><a href="https://github.com/gammaraysky/tf_inceptionV3_fruitveg_clf_flask_deploy" class="text-primary" target="_blank">'Auntie Lucy' - Supermarket Fruit/Veg Educational Mobile Game for children</a></h4>
-                            <h5 class="item-subtitle mbr-fonts-style pb-3 display-4">exploring tensorflow CNN image classification and transfer learning, flask deployment on Heroku</h5>
-                            <p class="item-text display-7">Project for IBM SGUnited Mid Career Pathways Programme. Proposed educational game for young children to learn to recognise fruit and vegetables and learn interesting facts about them. <br><br>Model performance is limited as we had to keep model size under 50mb (free account limitations). <a href="https://github.com/gammaraysky/tf_inceptionV3_fruitveg_clf_flask_deploy" class="text-primary" target="_blank">Repo here</a> and <a href="https://auntielucy.herokuapp.com/" class="text-primary" target="_blank">deployment here</a> (on free Heroku dyno, please give it some time to spin up).<br><br><strong>Techniques used:
-<br></strong>CNN, MobileNet, InceptionV3, Flask Deployment<br></p>
+                            <h4 class="item-title mbr-fonts-style pb-3 display-7"><a href="https://github.com/gammaraysky/tf_inceptionV3_fruitveg_clf_flask_deploy" class="text-primary" target="_blank">'Auntie Lucy' - Supermarket Fruit & Veg Educational Mobile Game for Young Children</a></h4>
+                            <!-- <h5 class="item-subtitle mbr-fonts-style pb-3 display-4">exploring tensorflow CNN image classification and transfer learning, flask deployment on Heroku</h5> -->
+                            <p class="item-text display-7">
+                                This capstone project, developed as part of the IBM SGUnited Mid Career Pathways Programme, introduces 'Auntie Lucy,' a mobile game aimed at educating young children about fruits and vegetables. The game utilizes TensorFlow CNN image classification and transfer learning techniques, with Flask deployment on Heroku.
+                            </p>
+                            <p class="item-text display-7">
+                                The primary objective of 'Auntie Lucy' is to help children recognize various fruits and vegetables while providing interesting facts about them. However, the project faced limitations due to a free account, resulting in a model size constraint of 50MB, which affected performance. The project repository can be accessed for further details, and the deployment is available on a free Heroku dyno, which may take some time to spin up.
+                            </p>
+                            <p class="item-text display-7">
+                                Key techniques employed in this project include Convolutional Neural Network (CNN) for image classification, transfer learning using MobileNet and InceptionV3 architectures, and the Flask framework for seamless deployment.
+                            </p>
+                                
+                                <!-- Project for IBM SGUnited Mid Career Pathways Programme. Proposed educational game for young children to learn to recognise fruit and vegetables and learn interesting facts about them. <br><br>Model performance is limited as we had to keep model size under 50mb (free account limitations). <a href="https://github.com/gammaraysky/tf_inceptionV3_fruitveg_clf_flask_deploy" class="text-primary" target="_blank">Repo here</a> and <a href="https://auntielucy.herokuapp.com/" class="text-primary" target="_blank">deployment here</a> (on free Heroku dyno, please give it some time to spin up).<br><br><strong>Techniques used:
+<br></strong>CNN, MobileNet, InceptionV3, Flask Deployment<br></p> -->
                         </div>
 
                     </div>
@@ -199,12 +271,23 @@ Based on actual data and passenger manifests, we are able to detect patterns tha
                             </a>
                         </div>
                         <div class="item-content">
-                            <h4 class="item-title mbr-fonts-style pb-3 display-7"><a href="https://github.com/gammaraysky/timeseries_store_sales_forecast_sarimax" class="text-primary" target="_blank">'Store Item Demand Forecasting Challenge' Kaggle Playground Challenge</a></h4>
-                            <h5 class="item-subtitle mbr-fonts-style pb-3 display-4">exploring time series</h5>
-                            <p class="item-text display-7">First attempt with time series. Scores here aren't that good, will need to revisit this again.
+                            <h4 class="item-title mbr-fonts-style pb-3 display-7"><a href="https://github.com/gammaraysky/timeseries_store_sales_forecast_sarimax" class="text-primary" target="_blank">'Store Item Demand Forecasting' Kaggle Challenge</a></h4>
+                            <!-- <h5 class="item-subtitle mbr-fonts-style pb-3 display-4">exploring time series</h5> -->
+                            <p class="item-text display-7">
+                                To effectively analyze the time series data, various techniques were employed with a thoughtful and methodical approach. These techniques included using QQplot to assess data distributional assumptions, SARIMAX model to capture temporal patterns and accurately forecast demand by considering both seasonal and non-seasonal components, and employing seasonal decomposition to isolate weekly and annual patterns as additional features for forecasting models.
+                            </p>
+                            <p class="item-text display-7">
+                                The goal was to develop a robust and accurate demand forecasting model. Although the scores achieved during the challenge were not as desired, they provided important insights for refining the model and guiding future iterations.
+                            </p>
+                            <p class="item-text display-7">
+                            </p>
+                            <p class="item-text display-7">
+                            </p>
+
+                                <!-- First attempt with time series. Scores here aren't that good, will need to revisit this again.
                                 <br>
                                 <br><strong>Techniques used:
-<br></strong>QQplot, SARIMAX, seasonal decomposition (weekly and annual, passed in as exogenous features)</p>
+<br></strong>QQplot, SARIMAX, seasonal decomposition (weekly and annual, passed in as exogenous features)</p> -->
                         </div>
 
                     </div>
@@ -223,7 +306,10 @@ Based on actual data and passenger manifests, we are able to detect patterns tha
                 <div class="title col-12 col-md-8">
                     <h2 class="align-center mbr-bold mbr-white pb-3 mbr-fonts-style display-1">
                         Past Creative Work</h2>
-                    <h3 class="mbr-section-subtitle align-center mbr-light mbr-white pb-3 mbr-fonts-style display-5">Here is some of my past work, that hopefully showcases some of the sensibilities and soft skills I've developed over the years. In most cases, I'm either the sole creator or a primary role (for larger projects). </h3>
+                    <h3 class="mbr-section-subtitle align-center mbr-light mbr-white pb-3 mbr-fonts-style display-5">
+                        Here is some of my past work as a media practitioner, that hopefully showcases some of the sensibilities and soft skills I've developed over the years. 
+                        
+                        My key strength is versatility. In most instances, I have taken on varying primary roles such as the director, producer, cinematographer, or editor. Whether as the sole creator or a key contributor, I have consistently delivered high-quality results.</h3>
 
                 </div>
             </div>
