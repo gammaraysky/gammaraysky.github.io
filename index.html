@@ -83,6 +83,42 @@
 
         <div class="container">
             <div class="row">
+
+                <div class="item features-image col-lg-4 col-md-6 col-sm-12">
+                    <div class="item-wrapper">
+                        <div class="item-img card-img">
+                            <a href="https://github.com/gammaraysky/chatpdf" class="text-primary" target="_blank">
+                                <img src="assets/images/chatpdf.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="item-content">
+                            <h4 class="item-title mbr-fonts-style pb-3 display-7"><a href="https://github.com/gammaraysky/chatpdf" class="text-primary" target="_blank">ChatPDF - PDF Q&A chat using 2 LLMs</a></h4>
+
+                            <p class="item-text display-7">
+
+                                Load in PDF file(s) and look up information using a chat method -- you can ask questions and the app utilises GPT-3.5-turbo to respond using relevant information from your PDFs.
+                            </p>
+                            <p class="item-text display-7">
+
+                                After ingesting PDF files, multi-qa-mpnet-base-dot-v1 model is used to generate embeddings on the tokenized sentences.
+                            </p>
+                            <p class="item-text display-7">
+
+                                When user submits a chat query, the nearest 4 matches are retrieved, and the query and document matches are sent to gpt3.5-turbo along with a prompt message to only reply if the document matches provide sufficient information for it to reply to the user's query
+                            </p>
+                            <p class="item-text display-7">
+
+                                Implemented in a gradio frontend.
+                            </p>
+
+
+
+
+                        </div>
+
+                    </div>
+                </div>
+
                 <div class="item features-image col-lg-4 col-md-6 col-sm-12">
                     <div class="item-wrapper">
                         <div class="item-img card-img">
@@ -133,7 +169,7 @@ Based on actual data and passenger manifests, we are able to detect patterns tha
                                 Initial exploration included evaluating different algorithms for the dataset. k-Means produced spherical clusters that didn't align well with the data, while density-based methods were ineffective due to uniform dataset density. Gaussian Mixture Models emerged as the most accurate method. A semi-supervised approach used confident predictions from GMM to train a HistGBM classifier, resulting in improved performance.
                             </p>
                             <p class="item-text display-7">
-                                Dimensionality reduction techniques like PCA were less beneficial but used for visualization alongside t-SNE. 
+                                Dimensionality reduction techniques like PCA were less beneficial but used for visualization alongside t-SNE.
                             </p>
                             <p class="item-text display-7">
                                 Techniques utilized include statistical tests (Shapiro-Wilks, Chi-squared), PowerTransformer for data normalization, outlier clipping, PCA, k-Means, GMM, BGMM, semi-supervised learning (HistGBM), and t-SNE for data visualization.
@@ -144,6 +180,16 @@ Based on actual data and passenger manifests, we are able to detect patterns tha
 
                     </div>
                 </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="features19 cid-thiVeNqY1z" id="features19-h" style="background-color: rgb(234, 238, 255);">
+
+        <div class="container">
+            <div class="row">
+
                 <div class="item features-image col-lg-4 col-md-6 col-sm-12">
                     <div class="item-wrapper">
                         <div class="item-img card-img">
@@ -182,14 +228,7 @@ Based on actual data and passenger manifests, we are able to detect patterns tha
 
                     </div>
                 </div>
-            </div>
-        </div>
-    </section>
 
-    <section class="features19 cid-thiVeNqY1z" id="features19-h" style="background-color: rgb(234, 238, 255);">
-
-        <div class="container">
-            <div class="row">
                 <div class="item features-image col-lg-4 col-md-6 col-sm-12">
                     <div class="item-wrapper">
                         <div class="item-img card-img">
@@ -212,11 +251,11 @@ Based on actual data and passenger manifests, we are able to detect patterns tha
                                     </li>
                                     <li class="item-text display-7">
                                         Dimensionality reduction techniques such as PCA, t-SNE, and UMAP for visualizing and determining the optimal number of clusters (n_clusters)
-                                        
+
                                     </li>
                                     <li class="item-text display-7">
                                         Application of Latent Dirichlet Allocation for topic modelling
-                                        
+
                                     </li>
                                     <li class="item-text display-7">
                                         Leveraging BERTopic with pre-trained sentence transformer models for advanced topic extraction
@@ -228,7 +267,7 @@ Based on actual data and passenger manifests, we are able to detect patterns tha
                                 </ul>
 
                             </p>
-                            
+
                                 <!-- Several exercises on sentiment analysis (book reviews), spam classification (NUS text messages), topic modelling (BBC News articles)<br><br><strong>Techniques used:<br></strong>CountVectorizer &amp; tf-idf embeddings, PCA, t-SNE, UMAP reduction &amp; k-Means for visualisation &amp; finding n_clusters, Latent Dirichlet Allocation, BERTopic with pre-trained sentence transformer, Wordcloud topic keyword visualisation.</p> -->
                         </div>
 
@@ -253,14 +292,14 @@ Based on actual data and passenger manifests, we are able to detect patterns tha
                             <p class="item-text display-7">
                                 Key techniques employed in this project include Convolutional Neural Network (CNN) for image classification, transfer learning using MobileNet and InceptionV3 architectures, and the Flask framework for seamless deployment.
                             </p>
-                                
+
                                 <!-- Project for IBM SGUnited Mid Career Pathways Programme. Proposed educational game for young children to learn to recognise fruit and vegetables and learn interesting facts about them. <br><br>Model performance is limited as we had to keep model size under 50mb (free account limitations). <a href="https://github.com/gammaraysky/tf_inceptionV3_fruitveg_clf_flask_deploy" class="text-primary" target="_blank">Repo here</a> and <a href="https://auntielucy.herokuapp.com/" class="text-primary" target="_blank">deployment here</a> (on free Heroku dyno, please give it some time to spin up).<br><br><strong>Techniques used:
 <br></strong>CNN, MobileNet, InceptionV3, Flask Deployment<br></p> -->
                         </div>
 
                     </div>
                 </div>
-                <div class="item features-image col-lg-4 col-md-6 col-sm-12">
+                <!--<div class="item features-image col-lg-4 col-md-6 col-sm-12">
                     <div class="item-wrapper">
                         <div class="item-img card-img">
                             <a href="https://github.com/gammaraysky/timeseries_store_sales_forecast_sarimax" class="text-primary" target="_blank">
@@ -269,7 +308,7 @@ Based on actual data and passenger manifests, we are able to detect patterns tha
                         </div>
                         <div class="item-content">
                             <h4 class="item-title mbr-fonts-style pb-3 display-7"><a href="https://github.com/gammaraysky/timeseries_store_sales_forecast_sarimax" class="text-primary" target="_blank">'Store Item Demand Forecasting' Kaggle Challenge</a></h4>
-                            <!-- <h5 class="item-subtitle mbr-fonts-style pb-3 display-4">exploring time series</h5> -->
+                            -- <h5 class="item-subtitle mbr-fonts-style pb-3 display-4">exploring time series</h5> --
                             <p class="item-text display-7">
                                 To effectively analyze the time series data, various techniques were employed with a thoughtful and methodical approach. These techniques included using QQplot to assess data distributional assumptions, SARIMAX model to capture temporal patterns and accurately forecast demand by considering both seasonal and non-seasonal components, and employing seasonal decomposition to isolate weekly and annual patterns as additional features for forecasting models.
                             </p>
@@ -281,14 +320,14 @@ Based on actual data and passenger manifests, we are able to detect patterns tha
                             <p class="item-text display-7">
                             </p>
 
-                                <!-- First attempt with time series. Scores here aren't that good, will need to revisit this again.
+                                -- First attempt with time series. Scores here aren't that good, will need to revisit this again.
                                 <br>
                                 <br><strong>Techniques used:
-<br></strong>QQplot, SARIMAX, seasonal decomposition (weekly and annual, passed in as exogenous features)</p> -->
+<br></strong>QQplot, SARIMAX, seasonal decomposition (weekly and annual, passed in as exogenous features)</p> --
                         </div>
 
                     </div>
-                </div>
+                </div>-->
             </div>
         </div>
     </section>
@@ -304,8 +343,8 @@ Based on actual data and passenger manifests, we are able to detect patterns tha
                     <h2 class="align-center mbr-bold mbr-white pb-3 mbr-fonts-style display-1">
                         Past Creative Work</h2>
                     <h3 class="mbr-section-subtitle align-center mbr-light mbr-white pb-3 mbr-fonts-style display-5">
-                        Here is some of my past work as a media practitioner, that hopefully showcases some of the sensibilities and soft skills I've developed over the years. 
-                        
+                        Here is some of my past work as a media practitioner, that hopefully showcases some of the sensibilities and soft skills I've developed over the years.
+
                         My key strength is versatility. In most instances, I have taken on varying primary roles such as the director, producer, cinematographer, or editor. Whether as the sole creator or a key contributor, I deliver consistent high-quality outcomes.</h3>
 
                 </div>
