@@ -38,15 +38,15 @@
 </head>
 
 <body>
-
+    <!-- ### COVER PAGE ################################################ -->
     <section class="header1 cid-thiJ56kkFl" data-bg-video="https://youtu.be/GmNrKMAk46k" id="header1-b">
-
         <div class="mbr-overlay" style="opacity: 0.92; background-color: rgb(7, 29, 42);">
         </div>
 
         <div class="container">
             <div class="row justify-content-md-center">
                 <div class="mbr-white col-md-10">
+                    <!-- ### COVER PAGE CONTENT ################################################################## -->
                     <h1 class="mbr-section-title align-center mbr-bold pb-3 mbr-fonts-style display-1">
                         Hanafi Haffidz</h1>
                     <h3 class="mbr-section-subtitle align-center mbr-light pb-3 mbr-fonts-style display-2">Hi, I'm a certified CAIE Associate AI Engineer, currently apprenticing at AI Singapore.</h4>
@@ -57,149 +57,175 @@
                     </p><p class="mbr-text align-center pb-3 mbr-fonts-style display-5">
                         I invite you to explore a snapshot of my ML projects below, or scroll to the bottom to view my previous <a href="page1.html#content5-i" class="text-primary">creative work.</a>
                     </p>
-
+                    <!-- ### / COVER PAGE CONTENT ################################################################## -->
                 </div>
             </div>
         </div>
-
     </section>
+    <!-- ### / COVER PAGE ################################################ -->
 
+    <!-- ### ML PROJECTS HEADER ################################################ -->
     <section class="header1 cid-thiJcMoJiF" id="header16-c" style="background-color: rgb(234, 238, 255);">
-
         <div class="container">
             <div class="row justify-content-md-center">
                 <div class="col-md-10 align-center">
-                    <h1 class="mbr-section-title mbr-bold pb-3 mbr-fonts-style display-1">Machine Learning Projects</h1>
-
+                    <h1 class="mbr-section-title mbr-bold pb-3 mbr-fonts-style display-1">
+                        Machine Learning Projects
+                    </h1>
                     <p class="mbr-text pb-3 mbr-fonts-style display-5"></p>
-
                 </div>
             </div>
         </div>
-
     </section>
+    <!-- ### / ML PROJECTS HEADER ################################################ -->
 
+    <!-- ### ML PROJECTS ################################################ -->
     <section class="features19 cid-thiJuALtew" id="features19-d" style="background-color: rgb(234, 238, 255);">
-
         <div class="container">
+            <!-- ### ROW ######################3#################### -->
             <div class="row">
-
+                <!-- ### ML ITEM ### -->
                 <div class="item features-image col-lg-4 col-md-6 col-sm-12">
                     <div class="item-wrapper">
                         <div class="item-img card-img">
-                            <a href="https://github.com/gammaraysky/chatpdf" class="text-primary" target="_blank">
-                                <img src="assets/images/chatpdf.jpg" alt="">
-                            </a>
-                        </div>
-                        <div class="item-content">
-                            <h4 class="item-title mbr-fonts-style pb-3 display-7"><a href="https://github.com/gammaraysky/chatpdf" class="text-primary" target="_blank">ChatPDF - PDF Q&A chat using 2 LLMs</a></h4>
-
-                            <p class="item-text display-7">
-
-                                Load in PDF file(s) and look up information using a chat method -- you can ask questions and the app utilises GPT-3.5-turbo to respond using relevant information from your PDFs.
-                            </p>
-                            <p class="item-text display-7">
-
-                                After ingesting PDF files, multi-qa-mpnet-base-dot-v1 model is used to generate embeddings on the tokenized sentences.
-                            </p>
-                            <p class="item-text display-7">
-
-                                When user submits a chat query, the nearest 4 matches are retrieved, and the query and document matches are sent to gpt3.5-turbo along with a prompt message to only reply if the document matches provide sufficient information for it to reply to the user's query
-                            </p>
-                            <p class="item-text display-7">
-
-                                Implemented in a gradio frontend.
-                            </p>
-
-
-
-
-                        </div>
-
-                    </div>
-                </div>
-
-                <div class="item features-image col-lg-4 col-md-6 col-sm-12">
-                    <div class="item-wrapper">
-                        <div class="item-img card-img">
-                            <a href="https://github.com/gammaraysky/classifier_histgbm_spaceship_titanic" class="text-primary" target="_blank">
-                                <img src="assets/images/mbr-700x443.jpg" alt="">
-                            </a>
-                        </div>
-                        <div class="item-content">
-                            <h4 class="item-title mbr-fonts-style pb-3 display-7"><a href="https://github.com/gammaraysky/classifier_histgbm_spaceship_titanic" class="text-primary" target="_blank">Predicting Passenger Survival using sklearn Classifiers</a></h4>
-                            <!--<h5 class="item-subtitle mbr-fonts-style pb-3 display-4">exploring sklearn classifiers</h5>-->
-                            <p class="item-text display-7">
-                                <!--A classifier model that predicts the outcome of passengers in a ship crash.
-Based on actual data and passenger manifests, we are able to detect patterns that the model can train on, such that it can predict survivability of the remaining missing passengers, so as to best allocate search-and-rescue resources.
-<br><br>Achieved 0.80576 accuracy score on Kaggle, leaderboard position 256/2350.<br><br><strong>Techniques used:<br></strong>conditional imputation of missing values, KNNImputer, OneHotEncoder, OrdinalEncoder, Regex, RobustScaler, PCA, GridSearchCV, GaussianNB, LogisticRegression, SVC, Adaboost, RandomForest, HistGBM, Pipelines (for final model).</p>
-                                -->
-                                This project focuses on developing a classifier model to predict the survivability of passengers in a ship crash, leveraging actual data and passenger manifests. By identifying meaningful patterns in the available data, the model aims to optimize the allocation of search-and-rescue resources for the remaining missing passengers.
-                            </p>
-                            <p class="item-text display-7">
-                                The developed classifier model achieved an accuracy score of 0.80576 on Kaggle, with a commendable leaderboard position of 256 out of 2350 participants.
-
-                            </p>
-                            <p class="item-text display-7">
-                                Utilised a range of techniques and methodologies, including conditional imputation of missing values, KNNImputer, OneHotEncoder, OrdinalEncoder, Regex, RobustScaler, PCA, GridSearchCV, GaussianNB, LogisticRegression, SVC, Adaboost, RandomForest, HistGBM, and Pipelines for the final model.
-
-                            </p>
-
-
-
-
-                        </div>
-
-                    </div>
-                </div>
-                <div class="item features-image col-lg-4 col-md-6 col-sm-12">
-                    <div class="item-wrapper">
-                        <div class="item-img card-img">
-                            <a href="https://github.com/gammaraysky/clustering_manufacturingcontroldata" class="text-primary" target="_blank">
+                            <!-- ### LINK, THUMBNAIL ### -->
+                            <a
+                                href="https://github.com/gammaraysky/fastapi_celery_model_serving"
+                                class="text-primary"
+                                target="_blank">
                                 <img src="assets/images/mbr-700x467.jpg" alt="">
                             </a>
                         </div>
                         <div class="item-content">
-                            <h4 class="item-title mbr-fonts-style pb-3 display-7"><a href="https://github.com/gammaraysky/clustering_manufacturingcontroldata" class="text-primary" target="_blank">Exploring Clustering Algorithms on Manufacturing Control Data</a></h4>
-                            <!-- <h5 class="item-subtitle mbr-fonts-style pb-3 display-4">exploring clustering algorithms</h5> -->
+                            <!-- ### LINK, TITLE ### -->
+                            <h4 class="item-title mbr-fonts-style pb-3 display-7">
+                                <a href="https://github.com/gammaraysky/fastapi_celery_model_serving"
+                                    class="text-primary"
+                                    target="_blank">
+                                    Model Deployment using FastAPI/Celery
+                                </a>
+                            </h4>
                             <p class="item-text display-7">
-                                This task focuses on analyzing manufacturing control data to uncover patterns and clusters that can be used for further downstream tasks.
+                                This project utilizes a robust tech stack, including FastAPI, Celery, RabbitMQ, and Redis, to serve a PyAnNet model tailored for Voice Activity Detection (VAD).
                             </p>
                             <p class="item-text display-7">
-                                Initial exploration included evaluating different algorithms for the dataset. k-Means produced spherical clusters that didn't align well with the data, while density-based methods were ineffective due to uniform dataset density. Gaussian Mixture Models emerged as the most accurate method. A semi-supervised approach used confident predictions from GMM to train a HistGBM classifier, resulting in improved performance.
+                                The implementation leverages FastAPI's asynchronous web framework to handle heavy audio processing workloads by offloading them to separate worker nodes handled by Celery, coordinated via RabbitMQ's messaging system.
                             </p>
                             <p class="item-text display-7">
-                                Dimensionality reduction techniques like PCA were less beneficial but used for visualization alongside t-SNE.
+                                Redis acts as the results backend data store, ensuring seamless caching and data persistence. The resultant system facilitates rapid and scalable deployment of the VAD model, and can be run locally on a single desktop or cloud deployed for larger workloads.
                             </p>
-                            <p class="item-text display-7">
-                                Techniques utilized include statistical tests (Shapiro-Wilks, Chi-squared), PowerTransformer for data normalization, outlier clipping, PCA, k-Means, GMM, BGMM, semi-supervised learning (HistGBM), and t-SNE for data visualization.
-                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- ### / ML ITEM ### -->
 
-                                <!-- Given manufacturing control data for which each sample belongs to a cluster, the task is to predict cluster labels. <br><br>First attempt with unsupervised methods, and&nbsp;observing how different algorithms work/don't work for this dataset.Here, k-Means is too simplistic (creates spherical clusters), dataset density was too uniform and thus density based methods didn't seem to work well either. Gaussian Mixture Models seemed the most accurate thus far. Also attempted a semi-supervised approach, using 'confident' predictions out of the GMM as labels to train a HistGBM classifier. Doing so managed to eke out a little bit more score-wise.&nbsp;<br><br>PCA reduction wasn't useful either, so only utilised it and t-SNE for visualisation.<br><br><strong>Techniques used:<br></strong>Shapiro-Wilks Test, Chi-squared Test, PowerTransformer, clip outliers, PCA, k-Means, GMM, BGMM, Semi-supervised using HistGBM, t-SNE (visualisation)</p> -->
+                <!-- ### ML ITEM ### -->
+                <div class="item features-image col-lg-4 col-md-6 col-sm-12">
+                    <div class="item-wrapper">
+                        <div class="item-img card-img">
+                            <!-- ### LINK, THUMBNAIL ### -->
+                            <a  href="https://github.com/gammaraysky/chatpdf"
+                                class="text-primary"
+                                target="_blank">
+                                <img
+                                    src="assets/images/chatpdf.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="item-content">
+                            <!-- ### LINK, TITLE ### -->
+                            <h4 class="item-title mbr-fonts-style pb-3 display-7">
+                                <a  href="https://github.com/gammaraysky/chatpdf"
+                                    class="text-primary"
+                                    target="_blank">
+                                    ChatPDF - PDF Q&A chat using 2 LLMs
+                                </a>
+                            </h4>
+                            <p class="item-text display-7">
+                                Load in PDF file(s) and look up information using a chat method -- you can ask questions and the app utilises GPT-3.5-turbo to respond using relevant information from your PDFs.
+                            </p>
+                            <p class="item-text display-7">
+                                After ingesting PDF files, multi-qa-mpnet-base-dot-v1 model is used to generate embeddings on the tokenized sentences.
+                            </p>
+                            <p class="item-text display-7">
+                                When user submits a chat query, the nearest 4 matches are retrieved, and the query and document matches are sent to gpt3.5-turbo along with a prompt message to only reply if the document matches provide sufficient information for it to reply to the user's query
+                            </p>
+                            <p class="item-text display-7">
+                                Implemented in a gradio frontend.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- ### / ML ITEM ### -->
+
+                <!-- ### ML ITEM ### -->
+                <div class="item features-image col-lg-4 col-md-6 col-sm-12">
+                    <div class="item-wrapper">
+                        <div class="item-img card-img">
+                            <!-- ### LINK, THUMBNAIL ### -->
+                            <a  href="https://github.com/gammaraysky/classifier_histgbm_spaceship_titanic"
+                                class="text-primary"
+                                target="_blank">
+                                <img src="assets/images/mbr-700x443.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="item-content">
+                            <!-- ### LINK, TITLE ### -->
+                            <h4 class="item-title mbr-fonts-style pb-3 display-7">
+                                <a  href="https://github.com/gammaraysky/classifier_histgbm_spaceship_titanic"
+                                    class="text-primary"
+                                    target="_blank">
+                                    Predicting Passenger Survival using sklearn Classifiers
+                                </a>
+                            </h4>
+                            <p class="item-text display-7">
+                                This project focuses on developing a classifier model to predict the survivability of passengers in a ship crash, leveraging actual data and passenger manifests. By identifying meaningful patterns in the available data, the model aims to optimize the allocation of search-and-rescue resources for the remaining missing passengers.
+                            </p>
+                            <p class="item-text display-7">
+                                The developed classifier model achieved an accuracy score of 0.80576 on Kaggle, with a commendable leaderboard position of 256 out of 2350 participants.
+                            </p>
+                            <p class="item-text display-7">
+                                Utilised a range of techniques and methodologies, including conditional imputation of missing values, KNNImputer, OneHotEncoder, OrdinalEncoder, Regex, RobustScaler, PCA, GridSearchCV, GaussianNB, LogisticRegression, SVC, Adaboost, RandomForest, HistGBM, and Pipelines for the final model.
+                            </p>
                         </div>
 
                     </div>
                 </div>
+                <!-- ### / ML ITEM ### -->
+
+
 
             </div>
+            <!-- ### / ROW ######################3#################### -->
+
         </div>
     </section>
 
     <section class="features19 cid-thiVeNqY1z" id="features19-h" style="background-color: rgb(234, 238, 255);">
 
         <div class="container">
-            <div class="row">
 
+            <!-- ### ROW ######################3#################### -->
+            <div class="row">
+                <!-- ### ML ITEM ### -->
                 <div class="item features-image col-lg-4 col-md-6 col-sm-12">
                     <div class="item-wrapper">
                         <div class="item-img card-img">
-                            <a href="https://github.com/gammaraysky/tf_objectiondetection" class="text-primary" target="_blank">
+                            <!-- ### LINK, THUMBNAIL ### -->
+                            <a  href="https://github.com/gammaraysky/tf_objectiondetection"
+                                class="text-primary"
+                                target="_blank">
                                 <img src="assets/images/agriculture-1-3562179606-600x345.jpg" alt="">
                             </a>
                         </div>
                         <div class="item-content">
-                            <h4 class="item-title mbr-fonts-style pb-3 display-7"><a href="https://github.com/gammaraysky/tf_objectiondetection" class="text-primary" target="_blank">Plant Disease Detection - Exploring TensorFlow Object Detection and Docker/TF Serving Deployment</a></h4>
-                            <!-- <h5 class="item-subtitle mbr-fonts-style pb-3 display-4">exploring tensorflow object detection, docker/tf serving deployment</h5> -->
+                            <!-- ### LINK, TITLE ### -->
+                            <h4 class="item-title mbr-fonts-style pb-3 display-7">
+                                <a  href="https://github.com/gammaraysky/tf_objectiondetection"
+                                    class="text-primary"
+                                    target="_blank">
+                                    Plant Disease Detection - Exploring TensorFlow Object Detection and Docker/TF Serving Deployment
+                                </a>
+                            </h4>
                             <p class="item-text display-7">
                                 This project aims to develop a plant disease detection system by utilizing TensorFlow Object Detection API and deploying it through Docker and TF Serving. The project is currently in progress and aims to achieve accurate and efficient classification of plant diseases.
                             </p>
@@ -209,41 +235,35 @@ Based on actual data and passenger manifests, we are able to detect patterns tha
                             <p class="item-text display-7">
                                 The model was finally deployed using Docker and TF Serving, enabling inference through a REST client. The project incorporates various techniques such as TensorFlow Object Detection, CNN Image Classification, transfer learning, and image augmentation to improve the accuracy and robustness of the plant disease detection model.
                             </p>
-                                <!-- <strong>(work-in-progress)</strong>
-                                <br>Plant Disease Detection of 'PlantDoc' Dataset, using Tensorflow Object Detection API, SSD MobileNetV2 FPNLite 320x320, Resnet101 FPN
-                                <br>
-                                <br>- Dataset from: <a href="https://github.com/pratikkayal/PlantDoc-Object-Detection-Dataset" target='new'>PlantDoc</a>
-                                <br>- Notebook ref from: <a href="https://github.com/nicknochnack/TFODCourse" target='new'>webcam hand gestures detection</a>
-                                <br>- Cleaned original Pascal VOC annotations using ./utils/clean-pascalvoc-annotations.ipynb
-                                <br>- Started with SSD MobileNet FPNLite 320x320 but results weren't good.
-                                <br>- Attempted ResNet101 based on performance/speed <a href="https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/tf2_detection_zoo.md" target='new'>chart here</a>.
-                                <br>- Added image augmentation preprocessing steps to train pipeline
-                                <br>- Monitored training and evaluation with Tensorboard
-                                <br>- Test deployed on Docker(TF Serving) with REST client
-                                <br>
-                                <br><strong>Techniques used:<br></strong>tf Object Detection, CNN Image Classification, Transfer Learning, Image Augmentation
-                                <br> <br>To-do: further model selection and possible param tuning. -->
-                            </p>
                         </div>
-
                     </div>
                 </div>
+                <!-- ### / ML ITEM ### -->
 
+                <!-- ### ML ITEM ### -->
                 <div class="item features-image col-lg-4 col-md-6 col-sm-12">
                     <div class="item-wrapper">
                         <div class="item-img card-img">
-                            <a href="https://github.com/gammaraysky/nltk_exercises" class="text-primary" target="_blank">
+                            <!-- ### LINK, THUMBNAIL ### -->
+                            <a  href="https://github.com/gammaraysky/nltk_exercises"
+                                class="text-primary"
+                                target="_blank">
                                 <img src="assets/images/mbr-700x468.jpg" alt="">
                             </a>
                         </div>
                         <div class="item-content">
-                            <h4 class="item-title mbr-fonts-style pb-3 display-7"><a href="https://github.com/gammaraysky/nltk_exercises" class="text-primary" target="_blank">Text Mining/Natural Language Processing (NLP) Exercises
-                                Exploring NLTK, Gensim, and BERTopic for Text Classification and Topic Modelling</a></h4>
-                            <!-- <h5 class="item-subtitle mbr-fonts-style pb-3 display-4">exploring NLTK, gensim, BERTopic for text classification, topic modelling</h5> -->
+                            <!-- ### LINK, TITLE ### -->
+                            <h4 class="item-title mbr-fonts-style pb-3 display-7">
+                                <a  href="https://github.com/gammaraysky/nltk_exercises"
+                                    class="text-primary"
+                                    target="_blank">
+                                    Exploring NLTK, Gensim, and BERTopic for Text Classification and Topic Modelling
+                                </a>
+                            </h4>
                             <p class="item-text display-7">
                                 This portfolio showcases a series of exercises focusing on sentiment analysis of book reviews, spam classification of NUS text messages, and topic modelling of BBC News articles.
                             </p>
-                            <p class="item-text display-7">
+                            <p class="item-text display-7 text-primary">
                                 Techniques employed include:
                                 <ul>
                                     <li class="item-text display-7">
@@ -251,7 +271,6 @@ Based on actual data and passenger manifests, we are able to detect patterns tha
                                     </li>
                                     <li class="item-text display-7">
                                         Dimensionality reduction techniques such as PCA, t-SNE, and UMAP for visualizing and determining the optimal number of clusters (n_clusters)
-
                                     </li>
                                     <li class="item-text display-7">
                                         Application of Latent Dirichlet Allocation for topic modelling
@@ -265,24 +284,33 @@ Based on actual data and passenger manifests, we are able to detect patterns tha
                                     </li>
 
                                 </ul>
-
                             </p>
-
-                                <!-- Several exercises on sentiment analysis (book reviews), spam classification (NUS text messages), topic modelling (BBC News articles)<br><br><strong>Techniques used:<br></strong>CountVectorizer &amp; tf-idf embeddings, PCA, t-SNE, UMAP reduction &amp; k-Means for visualisation &amp; finding n_clusters, Latent Dirichlet Allocation, BERTopic with pre-trained sentence transformer, Wordcloud topic keyword visualisation.</p> -->
                         </div>
 
                     </div>
                 </div>
+                <!-- ### / ML ITEM ### -->
+
+                <!-- ### ML ITEM ### -->
                 <div class="item features-image col-lg-4 col-md-6 col-sm-12">
                     <div class="item-wrapper">
                         <div class="item-img card-img">
-                            <a href="https://github.com/gammaraysky/tf_inceptionV3_fruitveg_clf_flask_deploy" class="text-primary" target="_blank">
+                            <!-- ### LINK, THUMBNAIL ### -->
+                            <a  href="https://github.com/gammaraysky/tf_inceptionV3_fruitveg_clf_flask_deploy"
+                                class="text-primary"
+                                target="_blank">
                                 <img src="assets/images/mbr-700x438.jpg" alt="">
                             </a>
                         </div>
                         <div class="item-content">
-                            <h4 class="item-title mbr-fonts-style pb-3 display-7"><a href="https://github.com/gammaraysky/tf_inceptionV3_fruitveg_clf_flask_deploy" class="text-primary" target="_blank">'Auntie Lucy' - Supermarket Fruit & Veg Educational Mobile Game for Young Children</a></h4>
-                            <!-- <h5 class="item-subtitle mbr-fonts-style pb-3 display-4">exploring tensorflow CNN image classification and transfer learning, flask deployment on Heroku</h5> -->
+                            <!-- ### LINK, TITLE ### -->
+                            <h4 class="item-title mbr-fonts-style pb-3 display-7">
+                                <a  href="https://github.com/gammaraysky/tf_inceptionV3_fruitveg_clf_flask_deploy"
+                                    class="text-primary"
+                                    target="_blank">
+                                    'Auntie Lucy' - Supermarket Fruit & Veg Educational Mobile Game for Young Children
+                                </a>
+                            </h4>
                             <p class="item-text display-7">
                                 This capstone project, developed as part of the IBM SGUnited Mid Career Pathways Programme, introduces 'Auntie Lucy,' a mobile game aimed at educating young children about fruits and vegetables. The game utilizes TensorFlow CNN image classification and transfer learning techniques, with Flask deployment on Heroku.
                             </p>
@@ -292,48 +320,19 @@ Based on actual data and passenger manifests, we are able to detect patterns tha
                             <p class="item-text display-7">
                                 Key techniques employed in this project include Convolutional Neural Network (CNN) for image classification, transfer learning using MobileNet and InceptionV3 architectures, and the Flask framework for seamless deployment.
                             </p>
-
-                                <!-- Project for IBM SGUnited Mid Career Pathways Programme. Proposed educational game for young children to learn to recognise fruit and vegetables and learn interesting facts about them. <br><br>Model performance is limited as we had to keep model size under 50mb (free account limitations). <a href="https://github.com/gammaraysky/tf_inceptionV3_fruitveg_clf_flask_deploy" class="text-primary" target="_blank">Repo here</a> and <a href="https://auntielucy.herokuapp.com/" class="text-primary" target="_blank">deployment here</a> (on free Heroku dyno, please give it some time to spin up).<br><br><strong>Techniques used:
-<br></strong>CNN, MobileNet, InceptionV3, Flask Deployment<br></p> -->
                         </div>
-
                     </div>
                 </div>
-                <!--<div class="item features-image col-lg-4 col-md-6 col-sm-12">
-                    <div class="item-wrapper">
-                        <div class="item-img card-img">
-                            <a href="https://github.com/gammaraysky/timeseries_store_sales_forecast_sarimax" class="text-primary" target="_blank">
-                                <img src="assets/images/mbr-700x394.jpg" alt="">
-                            </a>
-                        </div>
-                        <div class="item-content">
-                            <h4 class="item-title mbr-fonts-style pb-3 display-7"><a href="https://github.com/gammaraysky/timeseries_store_sales_forecast_sarimax" class="text-primary" target="_blank">'Store Item Demand Forecasting' Kaggle Challenge</a></h4>
-                            -- <h5 class="item-subtitle mbr-fonts-style pb-3 display-4">exploring time series</h5> --
-                            <p class="item-text display-7">
-                                To effectively analyze the time series data, various techniques were employed with a thoughtful and methodical approach. These techniques included using QQplot to assess data distributional assumptions, SARIMAX model to capture temporal patterns and accurately forecast demand by considering both seasonal and non-seasonal components, and employing seasonal decomposition to isolate weekly and annual patterns as additional features for forecasting models.
-                            </p>
-                            <p class="item-text display-7">
-                                The goal was to develop a robust and accurate demand forecasting model. Although the scores achieved during the challenge were not as desired, they provided important insights for refining the model and guiding future iterations.
-                            </p>
-                            <p class="item-text display-7">
-                            </p>
-                            <p class="item-text display-7">
-                            </p>
-
-                                -- First attempt with time series. Scores here aren't that good, will need to revisit this again.
-                                <br>
-                                <br><strong>Techniques used:
-<br></strong>QQplot, SARIMAX, seasonal decomposition (weekly and annual, passed in as exogenous features)</p> --
-                        </div>
-
-                    </div>
-                </div>-->
+                <!-- ### / ML ITEM ### -->
             </div>
+            <!-- ### / ROW ######################3#################### -->
+
         </div>
     </section>
+    <!-- ### / ML PROJECTS ################################################ -->
 
+    <!-- ### CREATIVE PROJECTS ################################################ -->
     <section class="mbr-section content5 cid-thiZx6tlDG mbr-parallax-background" id="content5-i">
-
         <div class="mbr-overlay" style="opacity: 0.85; background-color: rgb(35, 35, 35);">
         </div>
 
@@ -346,14 +345,14 @@ Based on actual data and passenger manifests, we are able to detect patterns tha
                         Here is some of my past work as a media practitioner, that hopefully showcases some of the sensibilities and soft skills I've developed over the years.
 
                         My key strength is versatility. In most instances, I have taken on varying primary roles such as the director, producer, cinematographer, or editor. Whether as the sole creator or a key contributor, I deliver consistent high-quality outcomes.</h3>
-
                 </div>
             </div>
         </div>
     </section>
+    <!-- ### / CREATIVE PROJECTS ################################################ -->
 
+    <!-- ### VIDEO POP UPS ################################################ -->
     <section class="mbr-gallery mbr-slider-carousel cid-thiJSRHX6s" id="gallery3-g">
-
         <div>
             <div>
                 <!-- Filter -->
@@ -464,11 +463,11 @@ Based on actual data and passenger manifests, we are able to detect patterns tha
                 </div>
             </div>
         </div>
-
     </section>
+    <!-- ### / VIDEO POP UPS ################################################ -->
 
+    <!-- ### FOOTER ################################################ -->
     <section once="footers" class="cid-thQNqkP0ZC" id="footer6-o">
-
         <div class="container">
             <div class="media-container-row align-center mbr-white">
                 <div class="col-12">
@@ -482,6 +481,9 @@ Based on actual data and passenger manifests, we are able to detect patterns tha
             </div>
         </div>
     </section>
+    <!-- ### FOOTER ################################################ -->
+
+    <!-- ### MOBIRISE ################################################ -->
     <section class="display-7" style="padding: 0;align-items: center;justify-content: center;flex-wrap: wrap;    align-content: center;display: flex;position: relative;height: 4rem;">
 
         <a href="https://mobiri.se/139557" style="flex: 1 1;height: 4rem;position: absolute;width: 100%;z-index: 1;"><img alt="" style="height: 4rem;" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="></a>
@@ -510,6 +512,8 @@ Based on actual data and passenger manifests, we are able to detect patterns tha
     <script src="assets/slidervideo/script.js"></script>
 
     <div id="scrollToTop" class="scrollToTop mbr-arrow-up"><a style="text-align: center;"><i class="mbr-arrow-up-icon mbr-arrow-up-icon-cm cm-icon cm-icon-smallarrow-up"></i></a></div>
+    <!-- ### / MOBIRISE ################################################ -->
+
 </body>
 
 </html>
