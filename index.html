@@ -49,13 +49,17 @@
                     <!-- ### COVER PAGE CONTENT ################################################################## -->
                     <h1 class="mbr-section-title align-center mbr-bold pb-3 mbr-fonts-style display-1">
                         Hanafi Haffidz</h1>
-                    <h3 class="mbr-section-subtitle align-center mbr-light pb-3 mbr-fonts-style display-2">Hi, I'm a certified CAIE Associate AI Engineer, currently apprenticing at AI Singapore.</h4>
+                    <h3 class="mbr-section-subtitle align-center mbr-light pb-3 mbr-fonts-style display-2">
+                        Hi, I'm a certified CAIE Associate AI Engineer.
+                    </h4>
                     <p class="mbr-text align-center pb-3 mbr-fonts-style display-5">
                         For over a decade, I thrived as a freelance filmmaker and company owner, overseeing diverse projects from inception to completion. This experience allowed me to excel in various roles, including project management, training, design thinking, content development, branding and communication.
-                    </p><p class="mbr-text align-center pb-3 mbr-fonts-style display-5">
-                        One unique advantage I bring to the AI landscape is my non-STEM background. In my previous work, the foremost focus has always been on the human experience. As the world becomes increasingly digitized, I hope to bridge the gap between cutting-edge technology and intuitive, user-centric AI solutions that resonate with people.
-                    </p><p class="mbr-text align-center pb-3 mbr-fonts-style display-5">
-                        I invite you to explore a snapshot of my ML projects below, or scroll to the bottom to view my previous <a href="page1.html#content5-i" class="text-primary">creative work.</a>
+                    </p>
+                    <p class="mbr-text align-center pb-3 mbr-fonts-style display-5">
+                        One unique advantage I bring to the AI landscape is my non-STEM background. In my previous career, the foremost focus has always been on the human experience. As the world becomes increasingly digitized, I hope to bridge the gap between cutting-edge technology and intuitive, user-centric AI solutions that resonate with people.
+                    </p>
+                    <p class="mbr-text align-center pb-3 mbr-fonts-style display-5">
+                        Check out my ML projects below, or scroll to the bottom to view my previous <a href="#creativework" class="text-primary">creative work.</a>
                     </p>
                     <!-- ### / COVER PAGE CONTENT ################################################################## -->
                 </div>
@@ -141,16 +145,16 @@
                                 </a>
                             </h4>
                             <p class="item-text display-7">
-                                Load in PDF file(s) and look up information using a chat method -- you can ask questions and the app utilises GPT-3.5-turbo to respond using relevant information from your PDFs.
+                                This project involves the ingestion of PDF files and the extraction of relevant information through an interactive chat method. Users can ask questions, and the application leverages the power of GPT-3.5-turbo to provide responses based on the content of the PDFs.
                             </p>
                             <p class="item-text display-7">
                                 After ingesting PDF files, multi-qa-mpnet-base-dot-v1 model is used to generate embeddings on the tokenized sentences.
                             </p>
                             <p class="item-text display-7">
-                                When user submits a chat query, the nearest 4 matches are retrieved, and the query and document matches are sent to gpt3.5-turbo along with a prompt message to only reply if the document matches provide sufficient information for it to reply to the user's query
+                                When user submits a chat query, the nearest matches are retrieved, and the query and document matches are sent to gpt3.5-turbo along with a prompt message to only reply if the document matches provide sufficient information for it to reply to the user's query
                             </p>
                             <p class="item-text display-7">
-                                Implemented in a gradio frontend.
+                                Implemented with a Gradio frontend.
                             </p>
                         </div>
                     </div>
@@ -227,13 +231,13 @@
                                 </a>
                             </h4>
                             <p class="item-text display-7">
-                                This project aims to develop a plant disease detection system by utilizing TensorFlow Object Detection API and deploying it through Docker and TF Serving. The project is currently in progress and aims to achieve accurate and efficient classification of plant diseases.
+                                This project aims to develop a plant disease detection system by utilizing TensorFlow Object Detection API and deploying it through Docker and TF Serving.
                             </p>
                             <p class="item-text display-7">
-                                The project utilizes the 'PlantDoc' dataset for training and evaluation purposes. Initially, the SSD MobileNetV2 FPNLite 320x320 model was used, but it did not yield satisfactory results. As a result, the ResNet101 FPN model was explored based on a performance/speed chart. Image augmentation techniques were implemented in the training pipeline to enhance model performance. TensorBoard was employed to monitor the training and evaluation processes.
+                                The 'PlantDoc' dataset is used for training and evaluation purposes. Initial phase utilized the SSD MobileNetV2 FPNLite 320x320 model, but it did not yield usable results. ResNet101 FPN model was then selected based on a performance/speed chart. Image augmentation techniques were implemented in the training pipeline to enhance model performance. TensorBoard was employed to monitor the training and evaluation processes.
                             </p>
                             <p class="item-text display-7">
-                                The model was finally deployed using Docker and TF Serving, enabling inference through a REST client. The project incorporates various techniques such as TensorFlow Object Detection, CNN Image Classification, transfer learning, and image augmentation to improve the accuracy and robustness of the plant disease detection model.
+                                The model was finally deployed using Docker and TF Serving, enabling inference through a REST client.
                             </p>
                         </div>
                     </div>
@@ -332,7 +336,7 @@
     <!-- ### / ML PROJECTS ################################################ -->
 
     <!-- ### CREATIVE PROJECTS ################################################ -->
-    <section class="mbr-section content5 cid-thiZx6tlDG mbr-parallax-background" id="content5-i">
+    <section class="mbr-section content5 cid-thiZx6tlDG mbr-parallax-background" id="creativework">
         <div class="mbr-overlay" style="opacity: 0.85; background-color: rgb(35, 35, 35);">
         </div>
 
@@ -343,8 +347,7 @@
                         Past Creative Work</h2>
                     <h3 class="mbr-section-subtitle align-center mbr-light mbr-white pb-3 mbr-fonts-style display-5">
                         Here is some of my past work as a media practitioner, that hopefully showcases some of the sensibilities and soft skills I've developed over the years.
-
-                        My key strength is versatility. In most instances, I have taken on varying primary roles such as the director, producer, cinematographer, or editor. Whether as the sole creator or a key contributor, I deliver consistent high-quality outcomes.</h3>
+                    </h3>
                 </div>
             </div>
         </div>
